@@ -117,11 +117,11 @@ def register():
 #-----------------------------------------MAIN MENU-------------------------------------------------------------------------
 
 #Load and display the image using Pillow
-logo_image = Image.open("logo.png") # opens the image file named 'logo.png'
+logo_image = Image.open("assets/logo.png") # opens the image file named 'logo.png'
 logo_image = logo_image.resize((450, 75), Image.LANCZOS) # resizes the image to 450x75 using high-quality LANCZOS filter
 logo_photo = ImageTk.PhotoImage(logo_image) # converts the image to a PhotoImage object for Tkinter
 
-#creates a label to display the logo image
+#label to display the logo image
 logo_label = tk.Label(root, image=logo_photo) # assigns the PhotoImage object to a label
 logo_label.grid(row=0, column=0, columnspan=3, padx=10, pady=10) # places the label on the grid, spanning 3 columns, with padding
 
