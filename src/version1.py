@@ -1,3 +1,5 @@
+#Joe Chan - Dosage Application (Supplement Tracker App) - Version 1
+
 import tkinter as tk
 from tkinter import ttk
 
@@ -81,8 +83,8 @@ def show_minerals():
     vitamin_label.grid_forget()
 
 #Load data from text files
-VITAMINS = read_file('vitamins.txt')
-MINERALS = read_file('minerals.txt')
+VITAMINS = read_file('data/vitamins.txt')
+MINERALS = read_file('data/minerals.txt')
 
 #Initialize the main window
 root = tk.Tk()
