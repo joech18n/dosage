@@ -1,0 +1,13 @@
+Vitamin A
+Vitamin B1 (Thiamine)
+Vitamin B2 (Riboflavin)
+Vitamin B3 (Niacin)
+Vitamin B5 (Pantothenic Acid)
+Vitamin B6 (Pyridoxine)
+Vitamin B7 (Biotin)
+Vitamin B9 (Folate)
+Vitamin B12 (Cobalamin)
+Vitamin C
+Vitamin D
+Vitamin E
+Vitamin K
